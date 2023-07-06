@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(5, 12, 18);
+}
+h1{
+    color: whitesmoke;
+}
+.create{
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(206, 202, 202);
+    border-radius: 20px;
+    border: 3px solid gold;
+    margin-bottom: 100px;
+}
+.create__area{
+    box-shadow: 0px 0px 3px 0px blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.inputarea{
+    border-radius: 7px;
+    border: 0px;
+    height: 25px;
+}
+
+
+.read button{
+    width: 180px;
+    height: 70px;
+    background-color: rgb(0, 153, 255);
+    border-radius: 20px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.answer{
+    padding: 20px;
+    background-color: rgb(97, 89, 95);
+}
